@@ -1,6 +1,6 @@
 cask "velo" do
   version "0.3.12"
-  sha256 "PLACEHOLDER"
+  sha256 "6a5649588852eaf4cb79691b9e23d9d46940b1d7ed7623711b7a6cdd5e5ddaa4"
 
   url "https://github.com/avihaymenahem/velo/releases/download/v#{version}/Velo_#{version}_universal.dmg",
       verified: "github.com/avihaymenahem/velo/"

@@ -1,6 +1,6 @@
 cask "velo" do
-  version "main"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  version "0.4.2"
+  sha256 "51e6f253e7822b8a2d406098c88209f827f571d40d2ab3d36959a356d889deca"
 
   url "https://github.com/avihaymenahem/velo/releases/download/v#{version}/Velo_#{version}_universal.dmg",
       verified: "github.com/avihaymenahem/velo/"
@@ -13,8 +13,6 @@ cask "velo" do
     url :url
     strategy :github_latest
   end
-
-  depends_on macos: ">= :high_sierra"
 
   app "Velo.app"
 

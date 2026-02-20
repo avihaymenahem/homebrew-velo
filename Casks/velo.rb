@@ -1,6 +1,6 @@
 cask "velo" do
-  version "0.4.7"
-  sha256 "558d5507d0d744e16f92bfcd31823d4ce832f5dff5642b7503bbdab97f9eb821"
+  version "0.4.8"
+  sha256 "5bf97d176f7bbdc96f47bcf4fbf842dd84610f3d4a52ba8f95175e42fb624e97"
 
   url "https://github.com/avihaymenahem/velo/releases/download/v#{version}/Velo_#{version}_universal.dmg",
       verified: "github.com/avihaymenahem/velo/"
